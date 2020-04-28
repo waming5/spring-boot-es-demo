@@ -1,0 +1,44 @@
+{
+  "landmark": {
+    "_all": {
+      "analyzer": "ik_smart",
+      "search_analyzer": "ik_smart",
+      "enabled": false
+    },
+    "properties": {
+      "id": {
+        "type": "long"
+      },
+      "geoNo": {
+        "type": "keyword"
+      },
+      "nameCn": {
+        "type": "text"
+      },
+      "nameEn": {
+        "type": "text"
+      },
+      "category": {
+        "type": "integer"
+      },
+      "latitude": {
+        "type": "double"
+      },
+      "longitude": {
+        "type": "double"
+      },
+      "letter": {
+        "type": "keyword"
+      },
+      "attributes": {
+        "type": "keyword"
+      },
+      "dataStatus": {
+        "type": "boolean"
+      },
+      "hotelNo": {
+        "type": "keyword"
+      }
+    }
+  }
+}
