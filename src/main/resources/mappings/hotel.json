@@ -260,23 +260,6 @@
             "search_analyzer":"ik_smart"
           }
         }
-      },
-      "protocols":{
-        "type":"nested",
-        "properties":{
-          "id":{
-            "type":"long"
-          },
-          "hotelNo":{
-            "type":"keyword"
-          },
-          "customerNo":{
-            "type":"keyword"
-          },
-          "dataStatus":{
-            "type":"boolean"
-          }
-        }
       }
   }
 }
